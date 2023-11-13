@@ -11,5 +11,5 @@ void problemSolution1(float consumed_water) {
         cost=13+30*0.4+20*0.12+5*1.4+(consumed_water-55)*1.5;
     
 
-    return cost;
+    return;
 }
