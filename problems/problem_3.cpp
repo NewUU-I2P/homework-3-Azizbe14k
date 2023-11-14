@@ -2,26 +2,27 @@
 
 std::string problemSolution3(float height, char S) {
     // write your code here
-if(S = 'M'){
+    std::string result;
+    if(S = 'M'){
         if (height < 1.70){
-            "Short";
+            result = "Short";
         }else if (height >= 1.70 and height <1.85){
-            "Normal";
+            result = "Normal";
         }else if (height >= 1.85){
-            "Tall";
+            result = "Tall";
         }
 
     }else if (S = 'F'){
         if (height < 1.60){
-            "Short";
+            result = "Short";
         }else if (height >= 1.60 and height < 1.75){
-            "Normal";
+            result = "Normal";
         }else if (height >= 1.75){
-            "Tall";
+            result = "Tall";
         }
     }
 
     // use return to return your result
     // make use of control flow statements
-return 0;
+return result;
 }
